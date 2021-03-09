@@ -21,6 +21,8 @@ const canSum = (targetSum, numbers, memo = {}) => {
     return false;
 }
 
+
+// Time Space : O(m * n), O(m)
 console.log(canSum(7, [2, 3])); // true
 console.log(canSum(301, [2, 2])); // false
 console.log(canSum(7, [2, 4])); // false
