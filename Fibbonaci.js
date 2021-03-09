@@ -6,6 +6,7 @@ const fib = (n, memo = {}) => {
     return memo[n];
 };
 
+// Time and Space : O(n)
 console.log(fib(6)); // 8
 console.log(fib(7)); // 13
 console.log(fib(8)); // 21
